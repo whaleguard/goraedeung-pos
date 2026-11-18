@@ -54,14 +54,14 @@ footer{margin-top:40px;color:#97a097;font-size:12px}
 <h2>설치 파일</h2>
 <p>카운터 PC에 설치하는 기본 파일입니다. 시작 메뉴·바탕화면 바로가기가 생기고, 서버에 새 버전이 올라오면 자동으로 업데이트됩니다.</p>
 <a class="btn" href="https://github.com/whaleguard/goraedeung-pos/raw/main/download/GoraedeungPOS-Setup-1.4.0.exe"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>설치 파일 받기 (101MB)</a>
-<span class="meta">GoraedeungPOS-Setup-1.4.0.exe · SHA-256 27b550aecc1f671bd1be17f3c7e433e7ce8bdc95a1ffc685bd2317394c7407c8</span>
+<span class="meta">GoraedeungPOS-Setup-1.4.0.exe · SHA-256 9b00a15de02f4ea1b3c58217b4858d97e73ffb1b8db6bfbda0f6d4455753d411</span>
 </div>
 <div class="card">
 <span class="tag" style="background:#eef0eb;color:#5f6b62">설치 없이</span>
 <h2>포터블 실행 파일</h2>
 <p>설치하지 않고 바로 실행합니다. 시험용이나 설치 권한이 없는 PC에 씁니다. 자동 업데이트는 되지 않습니다.</p>
 <a class="btn ghost" href="https://github.com/whaleguard/goraedeung-pos/raw/main/download/GoraedeungPOS-Portable-1.4.0.exe"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>포터블 받기 (93MB)</a>
-<span class="meta">GoraedeungPOS-Portable-1.4.0.exe · SHA-256 63c816be361f726b2ea62dd4c7243dda410dd4b18e7ae6d812a860454924a6ae</span>
+<span class="meta">GoraedeungPOS-Portable-1.4.0.exe · SHA-256 453e98af3aae23e30dcf6e42bf62a88ba6f8fa123680eec69b585f1c16081424</span>
 </div>
 </div>
 <div class="note">설치할 때 윈도우 "PC 보호" 창이 뜨면 <b>추가 정보 → 실행</b>을 누르세요. 코드 서명 인증서를 아직 붙이지 않아서 나오는 안내입니다.</div>
@@ -69,7 +69,8 @@ footer{margin-top:40px;color:#97a097;font-size:12px}
 <h3>설치와 첫 연결</h3>
 <ol>
 <li><b>설치 파일</b>을 받아 실행합니다. 설치가 끝나면 고래등 POS가 바로 열립니다.</li>
-<li>첫 화면에 <b>서버 주소</b>(예: <code>https://pos.매장도메인</code>)와 <b>점주 계정</b>을 넣고 로그인합니다. 이 PC가 매장 기기로 등록됩니다.</li>
+<li><b>서버 없이 먼저 둘러보기:</b> 첫 화면 맨 아래 <b>'서버 없이 체험해 보기'</b>를 누르면 시험용 매장이 바로 열립니다. 점주 PIN <code>1234</code>, 직원 PIN <code>1111</code>. 가짜 QR 주문·직원 호출·포장 주문이 저절로 들어오고, 결제는 실제로 나가지 않습니다.</li>
+<li>실제 매장에서는 첫 화면에 <b>서버 주소</b>(예: <code>https://pos.매장도메인</code>)와 <b>점주 계정</b>을 넣고 로그인합니다. 이 PC가 매장 기기로 등록됩니다.</li>
 <li>직원 PIN 화면에서 점주 PIN으로 들어갑니다. 처음 PIN(0000)은 <b>반드시 새 PIN으로 바꾸게</b> 되어 있습니다.</li>
 <li><b>설정 → 카드 단말기</b>에서 'KIS 단말기'를 고르고 <b>연결 확인</b>을 누릅니다. "연결됨 · TID …"가 보이면 됩니다. (KIS 에이전트를 먼저 설치해야 합니다.)</li>
 <li><b>설정 → 프린터 / 주방 출력 경로</b>에서 프린터를 확인하고 테스트 출력합니다. 주방 출력을 맡을 PC 한 대만 '주방출력 담당'을 켭니다.</li>
